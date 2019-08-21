@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: 858937
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  config-location: #配置文件位置
+  mapper-locations: #映射文件位置
+  type-aliases-package: #别名包路径
+  configuration:
+    map-underscore-to-camel-case: true #默认值true，开启驼峰命名规则映射

@@ -30,6 +30,7 @@
         <module>springboot-redis-annotation</module>
         <module>springboot-mongodb</module>
         <module>springboot-fileupload</module>
+        <module>springboot-mybatis-plus</module>
     </modules>
 
 	<properties>
