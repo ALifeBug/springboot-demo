@@ -29,6 +29,7 @@
 		<module>springboot-redis-json</module>
         <module>springboot-redis-annotation</module>
         <module>springboot-mongodb</module>
+        <module>springboot-fileupload</module>
     </modules>
 
 	<properties>
