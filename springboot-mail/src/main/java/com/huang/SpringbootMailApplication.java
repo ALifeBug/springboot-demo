@@ -1,6 +1,5 @@
 package com.huang;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,9 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author sccy
  */
 @SpringBootApplication
-public class SpringbootMybatisPlusApplication {
-
+public class SpringbootMailApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootMybatisPlusApplication.class,args);
+        SpringApplication.run(SpringbootMailApplication.class,args);
     }
 }
