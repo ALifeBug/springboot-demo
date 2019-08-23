@@ -31,7 +31,8 @@
         <module>springboot-fileupload</module>
         <module>springboot-mybatis-plus</module>
         <module>springboot-mail</module>
-    </modules>
+		<module>springboot-shiro</module>
+	</modules>
 
 	<properties>
 		<java.version>1.8</java.version>
