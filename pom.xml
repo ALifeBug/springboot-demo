@@ -32,7 +32,8 @@
         <module>springboot-mybatis-plus</module>
         <module>springboot-mail</module>
 		<module>springboot-shiro</module>
-	</modules>
+        <module>springboot-mybatis-multidatasource</module>
+    </modules>
 
 	<properties>
 		<java.version>1.8</java.version>

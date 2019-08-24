@@ -1,0 +1,15 @@
+mybatis:
+  type-aliases-package: com.huang.model
+
+spring:
+  datasource:
+    test1:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/test1?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+      username: root
+      password: 858937
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    test2:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/test2?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+      username: root
+      password: 858937
+      driver-class-name: com.mysql.cj.jdbc.Driver
