@@ -33,6 +33,7 @@
         <module>springboot-mail</module>
 		<module>springboot-shiro</module>
         <module>springboot-mybatis-multidatasource</module>
+        <module>springboot-async</module>
     </modules>
 
 	<properties>
