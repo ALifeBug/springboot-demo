@@ -34,6 +34,7 @@
 		<module>springboot-shiro</module>
         <module>springboot-mybatis-multidatasource</module>
         <module>springboot-async</module>
+        <module>springboot-activemq</module>
     </modules>
 
 	<properties>

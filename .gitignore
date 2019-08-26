@@ -1,9 +1,9 @@
 .idea
 log
 *.iml
-*/target
-*/mvnw
-*/mvnw.cmd
-*/.mvn
-*/*.iml
-*/*.md
+target
+mvnw
+mvnw.cmd
+.mvn
+*.iml
+*.md
