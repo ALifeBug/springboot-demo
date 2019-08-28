@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springboot-demo</artifactId>
+        <groupId>com.huang</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>springboot-rocketmq-producer</artifactId>
+    <dependencies>
+        <!--特别注意这里的版本问题，
+        需要保证rocketmq-spring-boot中的rocketmq-client版本与本机rocketmq版本一致，
+        否则会报错No route info of this topic -->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-spring-boot</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+    </dependencies>
+
+</project>
