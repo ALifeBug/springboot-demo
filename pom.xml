@@ -38,6 +38,7 @@
         <module>springboot-rocketmq-producer</module>
 		<module>springboot-rocketmq-consumer</module>
         <module>springboot-rocketmq-producer</module>
+        <module>springboot-actuator</module>
     </modules>
 
 	<properties>
